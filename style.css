@@ -59,7 +59,7 @@ a{
 
 #home
 {
-    background-image: url(img1.jpg);
+    background-image: url(./assets/img1.jpg);
     background-size: cover;
     background-position:left;
     position: relative;
