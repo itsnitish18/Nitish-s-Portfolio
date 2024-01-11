@@ -6,41 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/075c2b0f93.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <!-- home section -->
     <section id="home">
-         <nav class="nav">
-            <div class="left">
-                <ul>
-                    <li>N</li>
-                    <li>I</li>
-                    <li>T</li>
-                    <li>I</li>
-                    <li>S</li>
-                    <li>H</li>
-                    <li>'S</li>
-                    <li> </li>
-                    <li>P</li>
-                    <li>R</li>
-                    <li>O</li>
-                    <li>F</li>
-                    <li>I</li>
-                    <li>L</li>
-                    <li>E</li>
-                </ul>
-            </div>
-        <div class="right">
+        <nav>
+            <div class="heading"> <h1>NITISH'S PROFILE</h1></div>
             <ul>
-                <a href="#home"><li>Home</li></a>
-                <a href="#about"><li>About</li></a>
-                <a href="#Project"><li>Project</li></a>
-                <a href="#contact"><li>Contact</li></a>
+                <li><a href="#home">home</a></li>
+                <li><a href="#Project">project</a></li>
+                <li><a href="#About">about</a></li>
+                <li><a href="#contact">contact</a></li>
             </ul>
-        </div>
-         </nav>
+            <div class="bar">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <script src="script.js"></script>
         <div class="home container">
             <div>
                 <h1>Hello, <span></span></h1>
@@ -70,7 +56,8 @@
                 </div>
                 <div class="des">
 
-                    <a href="https://github.com/itsnitish18/Nitish-s-Portfolio" target="_blank"><button></>Get Code</button></a>
+                    <a href="https://github.com/itsnitish18/Nitish-s-Portfolio" target="_blank"><button></>Get
+                            Code</button></a>
                 </div>
             </div>
             <!--project2 -->
@@ -102,55 +89,53 @@
                         Medical Store Management System</h1>
                 </div>
                 <div class="des">
-                    <a href="https://drive.google.com/drive/folders/1GovbxxROwBJsJCEITernTnZzUMWn1u0E?usp=sharing" target="_blank"><button>Get Code</button></a>
+                    <a href="https://drive.google.com/drive/folders/1GovbxxROwBJsJCEITernTnZzUMWn1u0E?usp=sharing"
+                        target="_blank"><button>Get Code</button></a>
                 </div>
             </div>
 
         </div>
     </section>
-    <!--project section-->
-    <section id="about">
-        <div class="about-tittle">
+    <!--project section ends-->
+    <section id="About">
+        <div class="top-container">
             <h1>ABOUT</h1>
         </div>
-        <div class="about-one">
+        <div class="bottom-container">
             <div class="selfie">
                 <img src="./assets/img5.jpeg">
             </div>
-            <div class="descptn">
+            <div class="skill">
                 <p>Hello! 👋 I'm Nitish, a recent graduate with a great passion for crafting user-centric and visually
                     appealing web experiences. Armed with a solid foundation in HTML, CSS, and JavaScript, I am excited
-                    to embark on my journey as a <span>web developer</span></p>
-                <a href="https://drive.google.com/file/d/1k0YzmbxTFMSdJmQeqaXfufKY37XUn5n6/view?usp=sharing" target="_blank"><button>
+                    to embark on my journey as a <span style="color: green;">web developer</span></p>
+                <a href="https://drive.google.com/file/d/1k0YzmbxTFMSdJmQeqaXfufKY37XUn5n6/view?usp=sharing"
+                    target="_blank"><button>
                         Resume
                     </button></a>
                 <div class="trioset">
                     <div class="skills">
                         <h1>SKILLS</h1>
-                        <div class="skillset-1">
-                            <ul>
-                                <li>Core java</li>
-                                <li>MySQL</li>
-                                <li>OOPS</li>
+                        <ul class="s1">
+                            <li>Core java</li>
+                            <li>MySQL</li>
+                            <li>OOPS</li>
 
-                            </ul>
-                        </div>
-                        <div class="skillset-2">
-                            <ul>
-                                <li>CSS</li>
-                                <li>HTML</li>
-                                <li>Javascript</li>
-                            </ul>
-                        </div>
-                        <div class="skillset-2">
-                            <ul>
-                                <li>MongoDB</li>
-                                <li class="testing">Software Testing</li>
-                            </ul>
-                        </div>
+                        </ul>
+
+                        <ul class="s2">
+                            <li>CSS</li>
+                            <li>HTML</li>
+                            <li>Javascript</li>
+                        </ul>
+
+                        <ul class="s3">
+                            <li>MongoDB</li>
+                            <li class="testing">Software Testing</li>
+                        </ul>
                     </div>
                     <div class="educontainer">
-                        <h1>EDUCATION</h1>
+                        <h1 style="font-size: 20px;">EDUCATION</h1>
                         <div class="education">
                             <h1>Class X</h1>
                             <p>SBP DAV Centenary public school,Fatehabad</p>
@@ -159,21 +144,20 @@
                         <div class="education">
                             <h1>Class 12</h1>
                             <p>Daffodils public school,Fatehabad</p>
-                            <span>Percentage -</span><span class="gpa">85%</span>
+                            <span >Percentage -</span><span  class="gpa">85%</span>
                         </div>
                         <div class="education">
                             <h1>B.Tech(CSE)</h1>
-                            <p>University Institute of Engineering and Technology, Kurukshetra</p>
+                            <p>UIET, Kurukshetra</p>
                             <span>CGPA -</span><span class="gpa">7.77</span>
                         </div>
                     </div>
-
                 </div>
+
             </div>
         </div>
-
     </section>
-
+    <!--about section ends-->
     <section id="contact">
         <div class="contact1">
             <h1>Contact Me</h1>
@@ -191,11 +175,12 @@
         <div class="icon">
             <div class="icolinks">
                 <ul>
-                    <li><a href="https://www.instagram.com/nitishahuja18/" target="_blank"><img src="./assets/instagram.png"
-                                alt="instagram"></a></li>
+                    <li><a href="https://www.instagram.com/nitishahuja18/" target="_blank"><img
+                                src="./assets/instagram.png" alt="instagram"></a></li>
                     <li><a href="http://www.linkedin.com/in/nitish-ahuja-175a6b256" target="_blank"><img
                                 src="./assets/linkedin.png" alt="LinkedIn"></a></li>
-                    <li><a href="https://github.com/itsnitish18" target="_blank"><img src="./assets/code-branch.png" alt="GitHub"></a>
+                    <li><a href="https://github.com/itsnitish18" target="_blank"><img src="./assets/code-branch.png"
+                                alt="GitHub"></a>
                     </li>
                 </ul>
             </div>

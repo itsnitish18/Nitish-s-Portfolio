@@ -1,7 +1,6 @@
-var typed = new Typed(".textloop1",{
-    strings:["","Front-EndDeveloper","Enthusiastic Coder","Passionate learner"],
-    typeSpeed:100,
-    BackSpeed:60,
-    loop:true
-
+let bars = document.querySelector(".bar");
+let ul = document.querySelector("ul");
+bars.addEventListener("click",()=>{
+    ul.classList.toggle("showdata");
+    console.log(ul);
 })
