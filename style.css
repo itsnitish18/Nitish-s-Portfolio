@@ -295,10 +295,9 @@ button:hover {
 .educontainer {
     display: flex;
     flex-direction: column;
-
     gap: 16px;
-}
 
+}
 .education {
     height: 16vh;
     width: 48%;
@@ -473,7 +472,16 @@ button:hover {
         display: flex;
         justify-content: space-between;
         align-items:center;
-        gap: 16px;
+        gap: 24px;
+    }
+    .projects:nth-child(3) .title
+    {
+        position: relative;
+    }
+    .projects:nth-child(3) .des
+    {
+       position: absolute;
+       left: 40%;
     }
     .projects{
         height:280px;
@@ -495,15 +503,28 @@ button:hover {
     .trioset
     {
         display: flex;
-        justify-content: space-between;
-        margin-left: 50%;
+    }
+    .trioset .educontainer
+    {
+        position: relative;
+        justify-content: space-evenly;
+        left:-40%;
+    }
+    .trioset .skills
+    {
+        position: absolute;
+        left: 40%;
+    }
+    .education
+    {
+        height: 10vh;
     }
     #About .top-container{
         height: 20vh ;
     }
     #contact
     {
-        height: 20vh;
+        height: 23vh;
     }
     #contact .icon{
         margin-left: 30vw;
@@ -513,8 +534,17 @@ button:hover {
         margin-left: 35vw;
         gap: 2px;
     }
-    .education
+    .education h1
     {
-        box-shadow: none;
+        font-size: 10px;
     }
+    .education h2
+    {
+        font-size: 10px;
+    }
+    .education span 
+    {
+        font-size: 10px;
+    }
+    
 }
